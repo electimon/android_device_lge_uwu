@@ -22,17 +22,17 @@
 #
 
 
-# Common specific options in device_w7.mk
--include device/lge/msm8226-common/BoardConfigCommon.mk
+# Common specific options in device_uwu.mk
+-include device/lge/uwuowo-common/BoardConfigCommon.mk
 
 # Vendor Init
-TARGET_INIT_VENDOR_LIB := libinit_w7
-TARGET_OTA_ASSERT_DEVICE := w7,w7ds,w7n,w7nds
-TARGET_RECOVERY_DEVICE_MODULES := libinit_w7
-TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w7/releasetools
+TARGET_INIT_VENDOR_LIB := libinit_uwu
+TARGET_OTA_ASSERT_DEVICE := uwu,uwuds,uwun,uwunds
+TARGET_RECOVERY_DEVICE_MODULES := libinit_uwu
+TARGET_RELEASETOOLS_EXTENSIONS := device/lge/uwu/releasetools
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := w7
+TARGET_BOOTLOADER_BOARD_NAME := uwu
 
 # Kernel
 TARGET_KERNEL_CONFIG := w7ds_lineageos_defconfig
